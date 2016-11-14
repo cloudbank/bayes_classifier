@@ -1,5 +1,5 @@
 This is a basic node.js express app that uses the 
-https://github.com/NaturalNode/natural npm package to classify the vendor strings with a naive bayesian classifier.
+https://github.com/NaturalNode/natural npm package to classify strings with a naive bayesian classifier.
 
 There is stemming and tokenization by default but it can be customized.  The github page on natural explains about this.
 
