@@ -1,0 +1,67 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Bayes",
+		"_postman_id": "7183a05a-df52-6cdc-2088-fc6effebd3b5",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3030/categorize?vendorString=lime",
+			"request": {
+				"url": "localhost:3030/categorize?vendorString=lime",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3030/categorize?vendorString=io built",
+			"request": {
+				"url": "localhost:3030/categorize?vendorString=io built",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3030/train?vendorString=sun micro&category=sun.microsystems",
+			"request": {
+				"url": "localhost:3030/train?vendorString=sun micro&category=sun.microsystems",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3030/categorize?vendorString=[sas]",
+			"request": {
+				"url": "localhost:3030/categorize?vendorString=[sas]",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

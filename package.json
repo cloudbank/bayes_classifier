@@ -1,25 +1,22 @@
 {
-  "name": "Base",
+  "name": "bayes",
   "version": "1.0.0",
-  "description": "Basic structure for Express web apps.",
+  "description": "bayes classification express for vendor name",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "node_modules/.bin/mocha tests/**"
   },
-  "keywords": [
-    "base",
-    "project",
-    "node",
-    "express",
-    "structure"
-  ],
-  "author": "Terlici Ltd.",
-  "license": "MIT",
+  
+  "author": "",
+  "license": "",
   "dependencies": {
-    "body-parser": "^1.12.3",
-    "express": "^4.12.3",
-    "jade": "^1.9.2"
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "mongoose":"4.6.7",
+    "fast-csv":"2.3.0",
+    "morgan": "1.7.0",
+    "pug": "2.0.0-beta6"
   },
   "devDependencies": {
     "mocha": "^2.2.4",
