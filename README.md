@@ -17,16 +17,16 @@ to start making requests.
 
 2 endpoints exist that utilize a POST call:
 
-/train?vendorString=<name>&category=<category>
+/train?vendorString=[name]&category=[category]
 
 	--params vendorString and category
 
-/categorize?vendorString=<name>
+/categorize?vendorString=[name]
 
 	--param vendorString
 
 
-A postman collection file with a few requests is included called <Bayes.postman_collection>
+A postman collection file with a few requests is included called Bayes.postman_collection
 
 The key to getting the classifier to work better is to train it more, and to get the perfect
 processing on the input.  The processing could be improved.
