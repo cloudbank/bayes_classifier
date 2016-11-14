@@ -10,7 +10,7 @@ npm install   --this loads the dependencies
 
 node app.js   --this starts the server
 
-A server will start on port 3030. The data file <master.csv> in /config  directory will be read in and the classifier trained with that data.  <classifier.json> is saved in the root of the directory.  This is the saved state of the classifier that is loaded on /train and /categorize requests.
+A server will start on port 3030. The data file master.csv in /config  directory will be read in and the classifier trained with that data.  classifier.json is saved in the root of the directory.  This is the saved state of the classifier that is loaded on /train and /categorize requests.
 Wait until the console says:
 "The classifier file was saved!"
 to start making requests.
@@ -31,6 +31,6 @@ A postman collection file with a few requests is included called <Bayes.postman_
 The key to getting the classifier to work better is to train it more, and to get the perfect
 processing on the input.  The processing could be improved.
 
-~cloudybay
+
 
 
